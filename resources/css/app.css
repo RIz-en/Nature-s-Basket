@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .sign_up_input_field {
+        @apply p-1 border border-background rounded-md text-black w-64;
+    }
+
+    /* service partials */
+    .service_list_grid {
+        /* shadow-md shadow-gray-500 */
+        @apply flex p-4  rounded-md divide-x-2 space-x-4 cursor-pointer;
+    }
+
+    /* about us blade */
+    /* quality service logo styling */
+
+    .qs_icons {
+        @apply h-16 w-16 bg-green-700 rounded-full flex flex-col items-center justify-center;
+    }
+
+    .qs_flex{
+        @apply flex flex-col items-center justify-center backdrop-blur-sm bg-white/30 p-2;
+    }
+
+    .social_icons{
+        @apply h-6 w-6;
+    }
+
+    /* admin dashboard */
+    .adminsidebar{
+        @apply py-3 border-b-2 hover:bg-blue-500 px-2;
+    }
+
+    /* main colour */
+    .website_color{
+        @apply bg-gradient-to-r from-leafgreen to-limegreen;
+    }
